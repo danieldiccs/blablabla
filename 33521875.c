@@ -31,7 +31,7 @@ int main() {
 
   //Find the largest value in the left subtree of the root node
   Find_Largest_Value_in_Left_Subtree_of_Root_Node(rootPtr, &largest_value);
-  printf("%d\n", largest_value);
+  printf("%d", largest_value);
 }
 
 void insert_node(struct node **treePtr, int data) {
